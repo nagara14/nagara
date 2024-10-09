@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/564x/81/28/ec/8128ec4c3066b48a6553aed333cb4878.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+
+.nav {
+    background-color: #133913;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+header img {
+    height: 65px;
+    
+
+}
+
+header h2 {
+    color: white;
+    text-shadow:
+    -1px -1px 0px rgb(108, 165, 118),
+    1px -1px 0px rgb(0, 0, 0),
+    -1px 1px 0px black,
+    1px 1px 0px black;
+    margin-right: 550px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+header ul li a:hover {
+    color: #c6ecc6;
+    font-weight: 750;
+}
+/*  Bagian Menu */
+
+
+.Menu1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.coffe1{
+    background-color: #004d00;
+    height: 320px;
+    width: 250px;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.coffe1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.coffe1 h2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    text-shadow: 2px 2px 4px black;
+}
+
+.coffe2{
+    background-color: #004d00;
+    height: 320px;
+    width: 250px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.coffe2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.coffe2 h2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-shadow: 2px 2px 4px black;
+}
+
+.snack1{
+    background-color: #004d00;
+    height: 320px;
+    width: 250px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.snack1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.snack1 h2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-shadow: 2px 2px 4px black;
+}
+
+.snack2{
+    background-color: #004d00;
+    height: 320px;
+    width: 250px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.snack2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.snack2 h2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-shadow: 2px 2px 4px black;
+}
